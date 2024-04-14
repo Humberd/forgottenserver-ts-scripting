@@ -1,4 +1,4 @@
-# The Forgotten Server - TypeScript Scripting environment
+# The Forgotten Server - TypeScript scripting environment
 
 ![GitHub license](https://img.shields.io/github/license/Humberd/forgottenserver-ts-scripting)
 
