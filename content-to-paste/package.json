@@ -11,7 +11,7 @@
   "license": "GNU GPLv2",
   "devDependencies": {
     "chokidar": "3.5.3",
-    "forgottenserver-ts-declarations": "1.4.2-0",
+    "forgottenserver-ts-declarations": "1.4.2-1",
     "lua-types": "2.13.1",
     "prettier": "3.2.5",
     "typescript": "5.3.3",
