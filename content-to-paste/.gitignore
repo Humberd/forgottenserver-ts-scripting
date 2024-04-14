@@ -188,3 +188,4 @@ config.lua
 ts-lua-out
 node_modules
 tfs
+lualib_bundle.lua

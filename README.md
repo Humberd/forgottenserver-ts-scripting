@@ -25,3 +25,15 @@ npm ci
 ```bash
 npm run build-ts:watch
 ```
+
+## How it works?
+
+All the TypeScript files from `./ts-lua` directory are transpiled to Lua
+and are placed in `./data/scripts/ts-lua` directory.
+They are treated as normal Lua scripts by the Forgotten Server.
+
+There is also a library generated in `./data/lib/lualib_bundle.lua`.
+It contains compat functions that allow a seamless use of typescript builtin feature,
+such as `Array`, `Map`, `Set`, etc.
+It is placed in the `./data/lib` directory, because it needs not to be reloaded,
+when you reload your scripts using `/reload scripts` GOD command.
