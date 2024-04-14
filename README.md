@@ -1,8 +1,10 @@
-# Forgotten Server TS Scripting
+# The Forgotten Server - TypeScript Scripting environment
 
 ![GitHub license](https://img.shields.io/github/license/Humberd/forgottenserver-ts-scripting)
 
 Allows you to write scripts in Typescript instead of Lua for the Forgotten Server.
+It uses [hand-written type declarations](https://github.com/Humberd/forgottenserver-ts-declarations) to provide a
+type-safe environment for scripting.
 
 ## How to install?
 
@@ -51,3 +53,12 @@ It contains compat functions that allow a seamless use of typescript builtin fea
 such as `Array`, `Map`, `Set`, etc.
 It is placed in the `./data/lib` directory, because it needs not to be reloaded,
 when you reload your scripts using `/reload scripts` GOD command.
+
+## Compatibility
+
+It should work with any version of the Forgotten Server.
+However, type declarations are currently written only for the 1.4 version of the Forgotten Server.
+https://github.com/Humberd/forgottenserver-ts-declarations.
+If you want to use it with a different version, you need to write your own type declarations
+to match the API of your version of the Forgotten Server.
+Contributions are welcome!
