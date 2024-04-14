@@ -2,7 +2,7 @@
 
 Allows you to write scripts in Typescript instead of Lua for the Forgotten Server.
 
-## How to use?
+## How to install?
 
 1. Install [node.js](https://nodejs.org/en). Verify it's installed by running:
 
@@ -20,11 +20,23 @@ https://github.com/Humberd/forgottenserver-ts-scripting/assets/10242142/3b442da4
 npm ci
 ```
 
-4. Run the script:
+## How to use?
+
+There are 2 helper scripts you can run side by side
+
+* Transpiling Typescript to Lua:
 
 ```bash
 npm run build-ts:watch
 ```
+
+* Compiling and running The Forgotten Server:
+
+```bash
+npm run build-and-run-cpp:watch
+```
+
+https://github.com/Humberd/forgottenserver-ts-scripting/assets/10242142/50a0abe7-d9fc-48e9-8b1a-ca3fc2ad4d19
 
 ## How it works?
 
