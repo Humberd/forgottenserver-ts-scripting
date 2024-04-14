@@ -1,0 +1,21 @@
+{
+  "name": "forgottenserver",
+  "version": "1.0.0",
+  "description": "forgottenserver",
+  "main": "index.js",
+  "scripts": {
+    "build-ts:watch": "zx scripts/ts-lua-build-watcher.mjs",
+    "build-and-run-cpp:watch": "zx scripts/build-and-run.mjs"
+  },
+  "author": "",
+  "license": "GNU GPLv2",
+  "devDependencies": {
+    "chokidar": "3.5.3",
+    "forgottenserver-ts-declarations": "1.4.2-0",
+    "lua-types": "2.13.1",
+    "prettier": "3.2.5",
+    "typescript": "5.3.3",
+    "typescript-to-lua": "1.24.1",
+    "zx": "7.2.3"
+  }
+}

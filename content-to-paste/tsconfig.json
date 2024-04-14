@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "ES2023"
+    ],
+    "moduleResolution": "Node",
+    "rootDir": "./ts-lua",
+    "outDir": "./ts-lua-out",
+    "types": [
+      "./node_modules/lua-types/jit.d.ts",
+      "@typescript-to-lua/language-extensions"
+    ],
+    "strict": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./ts-lua/**/*.ts",
+    "ts-lua-types/**/*.d.ts",
+    "node_modules/forgottenserver-ts-declarations"
+  ],
+  "tstl": {
+    "noHeader": true,
+    "luaTarget": "JIT",
+    "luaLibImport": "require",
+    "sourceMapTraceback": true,
+    "luaPlugins": [
+    ]
+  }
+}
