@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build-ts:watch": "zx scripts/ts-lua-build-watcher.mjs",
-    "build-and-run-cpp:watch": "zx scripts/build-and-run.mjs"
+    "build-ts": "zx scripts/ts-lua-build-watcher.mjs",
+    "build-and-run-cpp": "zx scripts/build-and-run-cpp.mjs",
+    "build-cpp": "zx scripts/build-cpp.mjs"
   },
-  "author": "",
-  "license": "GNU GPLv2",
+  "author": "Humberd",
+  "license": "MIT",
   "devDependencies": {
     "chokidar": "3.5.3",
     "forgottenserver-ts-declarations": "1.4.2-1",

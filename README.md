@@ -26,9 +26,13 @@ npm ci
 
 ## How to use?
 
+### Development mode
+
 There are 2 helper scripts you can run side by side
 
 * Transpiling Typescript to Lua:
+
+It watches for changes in `./ts-lua` directory and transpiles them to Lua.
 
 ```bash
 npm run build-ts:watch
@@ -37,7 +41,14 @@ npm run build-ts:watch
 * Compiling and running The Forgotten Server:
 
 ```bash
-npm run build-and-run-cpp:watch
+npm run build-and-run-cpp
+```
+
+### Production mode
+
+```bash
+npm run build-ts
+npm run build-cpp
 ```
 
 https://github.com/Humberd/forgottenserver-ts-scripting/assets/10242142/50a0abe7-d9fc-48e9-8b1a-ca3fc2ad4d19
