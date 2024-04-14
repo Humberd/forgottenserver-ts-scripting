@@ -1,5 +1,7 @@
 # Forgotten Server TS Scripting
 
+![GitHub license](https://img.shields.io/github/license/Humberd/forgottenserver-ts-scripting)
+
 Allows you to write scripts in Typescript instead of Lua for the Forgotten Server.
 
 ## How to install?
